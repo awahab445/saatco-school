@@ -40,3 +40,6 @@ Route::post('/submit', function (Request $request) {
 
     return redirect('/');
 });
+
+//Route::controller('schools','SchoolController');
+Route::resource('schools','SchoolController');
